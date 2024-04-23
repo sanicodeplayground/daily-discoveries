@@ -10,7 +10,7 @@ DailyDiscovery is a web app where you can post something you've learned related 
 - [Screenshot](#screenshot)
 - [Tech Used](#tech-used)
 - [License](#license)
-- 
+
 # Features
 - Responsive design
 - Connected to Supabase Database 
