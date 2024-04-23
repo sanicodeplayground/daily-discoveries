@@ -1,14 +1,23 @@
-[#Description](#description)
+# Description
 
 DailyDiscovery is a web app where you can post something you've learned related with different topics, such as science, history, technology. 
 
+## Table of Contents
+
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [Tech Used](#tech-used)
+- [License](#license)
+- 
 # Features
 - Responsive design
 - Connected to Supabase Database 
 - Dark theme
 - Vanilla JavaScript (React coming soon)
 
-# Screenshots
+# Screenshot
  <img src="https://i.ibb.co/p0g97sW/Screenshot-2024-04-23-at-08-48-56.png">
  
 # Tech Used
@@ -19,4 +28,4 @@ DailyDiscovery is a web app where you can post something you've learned related 
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-[⬆ Back to Top](#description)
+[⬆ Back to Top](#table-of-contents)
