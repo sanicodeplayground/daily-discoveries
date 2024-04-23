@@ -1,4 +1,4 @@
-# Description (#description)
+[# Description] (#description)
 
 DailyDiscovery is a web app where you can post something you've learned related with different topics, such as science, history, technology. 
 
