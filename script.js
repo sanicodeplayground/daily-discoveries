@@ -82,11 +82,14 @@ function createFactsList(dataArr) {
           target="_blank"
           >(Source)</a>
       </p>
-      <span class="tag tag-technology">${fact.category}</span>
+      <span class="tag" style="background-color: ${
+        CATEGORIES.find((cat) => cat.name === fact.category)?.color
+      }">${fact.category}</span>
       </li>`
   );
   const html = htmlArr.join("");
-  const htmlDisplay = factsList.insertAdjacentHTML("afterbegin", html);
+  factsList.insertAdjacentHTML("afterbegin", html);
+  console.log(html);
 }
 
 // Toggle form visibility
