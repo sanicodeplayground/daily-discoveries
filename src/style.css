@@ -11,6 +11,14 @@ body {
   padding: 48px 64px;
 }
 
+.message {
+  text-align: center;
+  text-decoration: uppercase;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
 .hidden {
   display: none !important;
 }

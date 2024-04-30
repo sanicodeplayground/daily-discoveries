@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import supabase from "./supabase";
+
 import "./style.css";
 
 const CATEGORIES = [
@@ -62,7 +64,25 @@ function Counter() {
 function App() {
   // 1.Define state variable
   const [showForm, setShowForm] = useState(false);
-  const [facts, setFacts] = useState(initialFacts);
+  const [facts, setFacts] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(function () {
+    async function getFacts() {
+      setIsLoading(true);
+      const { data: facts, error } = await supabase
+        .from("facts")
+        .select("*")
+        .order("votesInteresting", { ascending: true })
+        .limit(1000);
+
+      if (!error) setFacts(facts);
+      else alert("There was a problem getting data");
+      setFacts(facts);
+      setIsLoading(false);
+    }
+    getFacts();
+  }, []);
 
   return (
     <>
@@ -73,10 +93,15 @@ function App() {
       ) : null}
       <main className="main">
         <CategoryFilters />
-        <FactList facts={facts} />
+
+        {isLoading ? <Loader /> : <FactList facts={facts} />}
       </main>
     </>
   );
+}
+
+function Loader() {
+  return <p className="message">Loading...</p>;
 }
 
 function Header({ showForm, setShowForm }) {
@@ -225,10 +250,10 @@ function Fact({ fact }) {
       </p>
       <span
         className="tag"
-        style={{
-          backgroundColor: CATEGORIES.find((cat) => cat.name === fact.category)
-            .color,
-        }}
+        // style={{
+        //   backgroundColor: CATEGORIES.find((cat) => cat.name === fact.category)
+        //     .color,
+        // }}
       >
         {fact.category}
       </span>
