@@ -13,7 +13,7 @@ body {
 
 .message {
   text-align: center;
-  text-decoration: uppercase;
+  text-transform: uppercase;
   font-size: 32px;
   font-weight: 600;
   margin-top: 24px;
@@ -122,6 +122,10 @@ h1 {
 
 .vote-buttons button:hover {
   background-color: #475569;
+}
+
+.vote-buttons button:disabled {
+  background-color: #334155;
 }
 
 ul {
