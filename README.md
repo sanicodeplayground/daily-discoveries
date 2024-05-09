@@ -9,7 +9,7 @@ Got a fascinating fact to share? Join our vibrant community! https://dailydiscov
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
 - [Features](#features)
-- [Screenshot](#screenshot)
+- [Preview](#preview)
 - [Tech Used](#tech-used)
 - [License](#license)
 
@@ -23,7 +23,7 @@ Got a fascinating fact to share? Join our vibrant community! https://dailydiscov
   - props
 
 # Preview
-![Dice Animation](https://i.ibb.co/KNy2Hry/dice.gif)
+![Daily Discoveries](https://i.ibb.co/gDMnr2Y/daily-discoveries.gif)
  
 # Tech Used
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
