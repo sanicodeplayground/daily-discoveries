@@ -1,8 +1,8 @@
 # Description
 
-Explore a world of knowledge with this interactive web platform, where every day brings new insights across diverse domains. Whether you're interested in the latest tech trends, intriguing scientific facts, financial tips, societal trends, health updates, or historical anecdotes, Daily Discovery is your go-to source for learning something new each day. Got a fascinating fact to share? Join our vibrant community!
+Explore a world of knowledge with this interactive web platform, where every day brings new insights across diverse domains. Whether you're interested in the latest tech trends, intriguing scientific facts, financial tips, societal trends, health updates, or historical anecdotes, Daily Discovery is your go-to source for learning something new each day. 
 
-Add your fact: [https://sanicodeplayground.github.io/js-dice-game/](https://dailydiscoveries.netlify.app/)
+Got a fascinating fact to share? Join our vibrant community! https://dailydiscoveries.netlify.app/
 
 ## Table of Contents
 
