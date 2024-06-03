@@ -11,11 +11,11 @@ Check it out: https://dailydiscoveries.netlify.app/
 - [Project Scope](#project-scope)
 - [Design](#design)
 - [Technologies Used](#technologies-used)
+- [Challenges](#challenges)
 - [Testing](#testing)
 - [Credits](#credits)
 - [Learning and Takeaway](#learning-and-takeaway)
 - [Personal Reflections](#personal-reflections)
-- [Tech Used](#tech-used)
 - [License](#license)
 
 # Project Goal
@@ -102,6 +102,17 @@ Was used to create the functionality of the app, however, it became obvious that
 
 - The IDE used for the development of the entire project.
 
+# Challenges
+- Using state component: useState is a built-in Hook provided by React. You can find other built-in Hooks in the <a href="https://react.dev/reference/react">API reference</a>. Hooks are more restrictive than other functions. You can only call Hooks at the top of your components (or other Hooks). That’s why you see it inside the App function:
+- ![state component](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*RO3CWbDgJBv8nqKqts0o3g.png)
+- Working with conditional rendering. It's just like in JS but with JSX:
+- ![conditional rendering](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*5WkAtuNjRTXqYW8WDtmT2g.png)
+- I rely on JavaScript features like the array map() function to render lists of components. For example, to render the array of categories:
+- ![JavaScript](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Bw6LDiZsoQWQKsl6RdJ1cA.png)
+- Creating my the table. This was my first time working with databse. Supabase official documentation helped a lot.
+- ![Supabase](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Bw6LDiZsoQWQKsl6RdJ1cA.png)
+
+
 # Testing
 
 ## Responsive
@@ -121,7 +132,7 @@ As well as chrome developer tools, I tested for:
 
 ## Page optimisation
 
-![Daily Discoveries](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*TTULehbsmerCbUYV3xh9Zg.png)
+![Optimization](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*TTULehbsmerCbUYV3xh9Zg.png)
 
 # Credits
 
@@ -142,7 +153,6 @@ As well as chrome developer tools, I tested for:
 
 Upon starting this project, I felt a little lost and didn't quite know where to begin. I was worried as although I now had an understanding of the core concepts of Javascript as an imperative programming language, putting them into practice seemed monumentous and a little daunting, especially as css and html came so easily to me. Through research and a lot of hard work its safe to say that I feel as though I am beginning to overcome my initial fear of messing up and trusting in myself as a developer, that given a little time I can always rely on myself to come up with the answer. I now love JavaScript and relish the challenge of fixing my mistakes and trying out new code, I am incredibly eager so as to keep my foot on the gas an develop further javascript projects.
 
-# Tech Used
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
