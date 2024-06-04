@@ -2,7 +2,7 @@
 
 I built Daily Discoveries as a place to save and share interesting information about different topics such as tech, science, finance, etc. It allows users to add their own interesting facts and even vote on existing ones. The project uses React library for the front-end, Supabase as a database, and is deployed using Netlify.
 
-Check it out: https://dailydiscoveries.netlify.app/
+[**Live Demo →**](https://dailydiscoveries.netlify.app)
 
 ## Table of Contents
 
